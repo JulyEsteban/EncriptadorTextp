@@ -1,0 +1,103 @@
+* {
+    background: #F3F5FC;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+/* ------------------------Header----------------------------- */
+
+header {
+    width: 100%;
+    background: linear-gradient(45deg, white, #FEFEFE, #ffc);
+    height: 80px;
+    transition: 1s all;
+}
+header:hover {
+    border-bottom: .5px solid black;
+}
+.header-logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+
+
+/* --------------------------Main----------------------------- */
+
+main {
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.textarea-entrada {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.textarea-entrada:focus{
+    outline: none;
+}
+
+.textarea-salida {
+    background: white;
+    background-image: url("../img/img-person.svg");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 97px;
+    position: fixed;
+    margin-top: 90px;
+    padding-left: 20px;
+}
+
+.textarea-salida:focus{
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.btn-copiar {
+    width: 288px;
+    height: 67px;
+    border: 1px solid #0A3871;
+}
