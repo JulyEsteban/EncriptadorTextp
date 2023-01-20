@@ -89,6 +89,7 @@ main {
     cursor: pointer;
     height: 67px;
     width: 328px;
+    transition: 1s all;
 }
 
 .btn-desencriptar {
@@ -100,6 +101,7 @@ main {
     color: #0A3871;
     cursor: pointer;
     margin-left: 30px;
+    transition: 1s all;
 }
 
 .btn-copiar {
@@ -112,5 +114,53 @@ main {
     margin-left: 108px;
     margin-top: 402px;
     position: absolute;
+    transition: 1s all;
 }
 
+.btn-copiar:hover, .btn-desencriptar:hover,.btn-encriptar:hover{
+    background-color: #c98a26;
+    border: 1px solid #2d2416;
+    color: white;
+}
+
+.btn-copiar:active, .btn-desencriptar:active, .btn-encriptar:active{
+    background-color: #4ba859;
+    border: #172419;
+}
+
+
+/* --------------------------Footer----------------------------- */
+footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    /* align-items: center; */
+}
+.footer-img {
+    width: 40%;
+    background: linear-gradient(40deg, white, #fefefe, #dadab3);
+}
+
+.img-footer {
+    width: 70px;
+    margin: 0 auto;
+}
+
+.copyright {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.copyright h4{
+    width: 100%;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    background: linear-gradient(50deg, #dadab3, #bebe91, gray, black);
+    
+}

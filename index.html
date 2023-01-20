@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
     <title>Encriptacioón</title>
 </head>
 <body>
@@ -25,14 +26,23 @@
                 <button class="btn-desencriptar">Desencriptar</button>
             </div>
         </section>
-        
+
         <section>
-            <textarea class="textarea-salida" cols="20" rows="10"></textarea>
+            <textarea class="textarea-salida" id="texSalida" cols="20" rows="10"></textarea>
             <div class="buttons">
-                <button class="btn-copiar">Copiar mensaje</button>
+                <button class="btn-copiar" id="copiar">Copiar mensaje</button>
             </div>
         </section>
 
+        
     </main>
+    <footer>
+        <div class="footer-img">
+            <img src="img/img-willy.png" alt="Logo-STBN" class="img-footer">
+        </div>
+        <div class="copyright">
+            <h4>Diseñado por STBN &copy</h4>
+        </div>
+    </footer>
 </body>
 </html>
