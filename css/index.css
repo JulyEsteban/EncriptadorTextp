@@ -53,6 +53,12 @@ main {
     outline: none;
 }
 
+.information-import {
+    color: #495057;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .textarea-salida {
     background: white;
     background-image: url("../img/img-person.svg");
@@ -97,7 +103,14 @@ main {
 }
 
 .btn-copiar {
-    width: 288px;
+    width: 336px;
     height: 67px;
     border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
 }
+
