@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-    <script src="js/index.js"></script>
-    <title>Encriptacioón</title>
+    <title>Encriptación</title>
 </head>
+
 <body>
     <header>
         <img src="img/img-alura.svg" alt="Logo Alura" class="header-logo">
@@ -22,20 +23,20 @@
                 <h6 class="information-import">Solo letras minusculas y sín acentos</h6>
             </div>
             <div class="buttons">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-desencriptar">Desencriptar</button>
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
 
         <section>
             <textarea class="textarea-salida" id="texSalida" cols="20" rows="10"></textarea>
             <div class="buttons">
-                <button class="btn-copiar" id="copiar">Copiar mensaje</button>
+                <button class="btn-copiar" id="copiar" onclick="copiarTexto()">Copiar mensaje</button>
             </div>
         </section>
 
-        
     </main>
+
     <footer>
         <div class="footer-img">
             <img src="img/img-willy.png" alt="Logo-STBN" class="img-footer">
@@ -44,5 +45,9 @@
             <h4>Diseñado por STBN &copy</h4>
         </div>
     </footer>
+
+    <script src="js/index.js"></script>
+
 </body>
+
 </html>

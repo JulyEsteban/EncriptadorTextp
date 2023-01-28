@@ -114,7 +114,7 @@ main {
     margin-left: 108px;
     margin-top: 402px;
     position: absolute;
-    transition: 1s all;
+    transition: .2s all;
 }
 
 .btn-copiar:hover, .btn-desencriptar:hover,.btn-encriptar:hover{
@@ -143,16 +143,14 @@ footer {
 }
 
 .img-footer {
-    width: 70px;
-    margin: 0 auto;
+    height: 100%;
+    margin-left: 100px;
 }
 
 .copyright {
     width: 60%;
     height: 100%;
-    margin: 0 auto;
     display: flex;
-
 }
 
 .copyright h4{
